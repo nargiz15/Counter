@@ -1,0 +1,36 @@
+
+.App{
+  margin: 10px;
+}
+
+nav{
+  background-color: blue;
+  padding: 20px;
+
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a.active{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divsearch{
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+}
+.searching{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 5px;
+  
+}
+.searching.input{
+  border-radius: 8px;
+}
